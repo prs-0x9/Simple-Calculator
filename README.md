@@ -1,4 +1,5 @@
 Simple Calculator
+
 A command-line calculator application written in C++ that performs basic arithmetic operations.
 
 Features
