@@ -40,37 +40,28 @@ int main()
   cout << "Enter another number: ";
   cin >> num2;
 
-  if (operation == '+')
+  if (operation == '/' && num2 == 0) 
   {
-   result = num1 + num2;
-  }
-  if (operation == '-')
-  {
-    if (num1 > num2)
-    {
-     result = num1 - num2;
-    }
-    else
-    {
-     result = num2 - num1;
-    }
-  }
-  if (operation == '*')
-  {
-   result = num1 * num2;
-  }
-  if (operation == '/')
-  {
-   if (num2 != 0)
-   {
-    result = num1 /num2;
-   }
-   else
-   {
-    cout << "Division by zero is not allowed!" << endl;
+    cout <<  endl << "Cannot divide by zero" << endl;
     return 1;
-   }
+  }
+  
+  switch (operation) 
+  {
+    case '+':
+      result = num1 + num2;
+      break;
+    case '-':
+      result = num1 - num2;
+      break;
+    case '*':
+      result = num1 * num2;
+      break;
+    case '/':
+      result = num1 / num2;
+      break;
   }
 
   cout << endl << "Result: " << setw(30) << result;
+  return 0;
 }
