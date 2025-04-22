@@ -1,37 +1,42 @@
-Simple Calculator
+# Simple Calculator
 
 A command-line calculator application written in C++ that performs basic arithmetic operations.
 
-Features
+## Features
 - Basic arithmetic operations (addition, subtraction, multiplication, division)
 - Input validation for operations
 - Error handling for division by zero
 - Formatted output display
 
-Prerequisites
-C++ compiler (GCC, Clang, MSVC, etc.)
-Basic knowledge of command-line operations
+## Prerequisites
+- C++ compiler (GCC, Clang, MSVC, etc.)
+- Basic knowledge of command-line operations
 
-Installation
+## Installation
 
 1. Clone the repository
-
+    ```
     git clone https://github.com/prs-0x9/Simple-Calculator.git
+    ```
 
 2. Navigate to the project directory
-
+    ```
     cd simple-calculator
+    ```
 
 3. Compile the program
-
+   ```
    g++ simplecalc.cpp -o calculator
+   ```
 
 
-Usage
+## Usage
 
 1. Run the compiled program
 
+   ```
    ./calculator
+   ```
 
 2. Follow the on-screen prompts:
    - Enter your first number
@@ -40,25 +45,27 @@ Usage
    - View the result
 
 
-Error Handling
+## Error Handling
 
 - The program validates operation input and will prompt for re-entry if an invalid operation is provided
 - Division by zero is caught and handled with an appropriate error message
 - Invalid numeric inputs will cause the program to fail (future improvement opportunity)
 
-Project Structure
+## Project Structure
 
+```
 simple-calculator/
 │
 ├── simplecalc.cpp        # Main source code file
 ├── README.md             # This file
+```
 
-Development Timeline
+## Development Timeline
 
 - Started: December 19, 2023
 - Completed: December 26, 2023
 
-Future Improvements
+## Future Improvements
 
 - Support for multiple operations in sequence
 - Memory function for storing previous results
@@ -67,23 +74,23 @@ Future Improvements
 - Support for parentheses and order of operations
 - Command-line arguments support
 
-Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Author
+## Author
 
 - Paris Richards
 
-Acknowledgments
+## Acknowledgments
 
 - Created as a learning project for C++ programming
 
-Contact
+## Contact
 
 - GitHub: [@prs-0x9](https://github.com/prs-0x9)
 - LinkedIn: [Paris Richards](https://www.linkedin.com/in/parisrichards974/)
